@@ -1,5 +1,5 @@
 body {
-    background-color: DodgerBlue; /* Determines the background color. */
+    background-color: DodgerBlue; /* Determines the default background color. */
     color: white; /*Determines default color*/
     font-family: Arial, Helvetica, sans-serif; /*Determines the font */
 }
@@ -7,7 +7,7 @@ main {
     background-color: white; /* Determines the main content section's color */
     color: navy; /* Determines the main content section's text color */
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {
         background-color: lightskyblue;
         color: navy;
