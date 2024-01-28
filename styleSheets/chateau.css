@@ -1,3 +1,9 @@
 body {
     background-color: DodgerBlue; /* Determines the background color. */
-} 
+    color: white; /*Determines default color*/
+    font-family: Arial, Helvetica, sans-serif; /*Determines the font */
+}
+main {
+    background-color: white; /* Determines the main content section's color */
+    color: navy; /* Determines the main content section's text color */
+}
