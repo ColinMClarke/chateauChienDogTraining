@@ -2,6 +2,8 @@ body {
     background-color: DodgerBlue; /* Determines the default background color. */
     color: white; /*Determines default color*/
     font-family: Arial, Helvetica, sans-serif; /*Determines the font */
+}
+header {
     background-image: url(../images/LogoSmall.png); /* Note the file path, where "../" directs to the root folder. */
     min-height: 60px;
     background-position: right top;
@@ -25,8 +27,7 @@ main {
         color: snow;
         background-image: url(../images/LogoLarge.png);
         min-height: 100px;
-        background-position: right top;
-        background-repeat: no-repeat;
+        
         
 
     }
