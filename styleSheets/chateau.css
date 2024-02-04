@@ -16,8 +16,11 @@ main {
 img { /* This section scales the images up and down to the screen size. */
     width: 100%;
     height: auto;
-    max-width: 900px; /* Restricts the image from scaling up so large that resolution suffers. */
 }
+dt {
+    font-weight: bold;
+}
+
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
         background-color: lightskyblue;
