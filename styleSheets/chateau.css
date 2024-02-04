@@ -3,7 +3,7 @@ body {
     color: white; /*Determines default color*/
     font-family: Arial, Helvetica, sans-serif; /*Determines the font */
     background-image: url(../images/LogoSmall.png); /* Note the file path, where "../" directs to the root folder. */
-    min-height: 60;
+    min-height: 60px;
     background-position: right top;
     background-repeat: no-repeat;
 }
