@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif; /*Determines the font */
 }
 header {
-    background-image: url(../images/LogoSmall.png); /* Note the file path, where "../" directs to the root folder. */
+    background-image: url(../images/LogoSmall.png); /* This is the default header image for small screens. Note the file path, where "../" directs to the root folder. */
     min-height: 60px;
     background-position: right top;
     background-repeat: no-repeat;
@@ -19,18 +19,11 @@ main {
         background-color: lightskyblue;
         color: navy;
         font-family: Georgia, 'Times New Roman', Times, serif;
-
     }       
-    
     header {
         background-color: dodgerblue;
         color: snow;
-        background-image: url(../images/LogoLarge.png);
-        min-height: 100px;
-        
-        
-
+        background-image: url(../images/LogoLarge.png); /* This header image for larger screens replaces the small screen default image. */
+        min-height: 100px;     
     }
-
-
 }
