@@ -13,9 +13,12 @@ main {
     background-color: white; /* Determines the main content section's color */
     color: navy; /* Determines the main content section's text color */
 }
+img { /* This section scales the images down to screen size and up to their max size. */
+    width: 100%;
+    height: auto;
+}
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
-
         background-color: lightskyblue;
         color: navy;
         font-family: Georgia, 'Times New Roman', Times, serif;
