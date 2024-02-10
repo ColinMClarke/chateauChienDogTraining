@@ -29,6 +29,10 @@ section .profile{ /* This section controls styling of the profile photos within 
    text-align: center;
    font-weight: bold; 
 }
+#websiteTitle {
+    font-family: "Brush Script MT", cursive;
+    font-size: 4em;
+}
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
