@@ -14,7 +14,7 @@ main {
     color: navy; /* Determines the main content section's text color */
 }
 img { /* This section scales the images up and down to the screen size. */
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 dt {
@@ -33,12 +33,16 @@ section .profile{ /* This section controls styling of the profile photos within 
     font-family: "Brush Script MT", cursive;
     font-size: 4em;
 }
-.classInfo {
+.classInfo { /* Changed background color of some elements on classes page. */
     background-color: rgb(233, 230, 227);
 }
-section {
+section { /* Changed background color for profile photo section */
     background-color: rgb(159, 216, 216);
     border-radius: 10px;
+} /* Targets just the occurence of "Chateau Chien" for styling (larger and italic) */ 
+.largerItalics {
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
