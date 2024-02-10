@@ -21,7 +21,7 @@ dt {
     font-weight: bold;
 }
 aside {
-    background-color: rgb(202, 196, 196);
+    background-color: rgb(167, 183, 212);
 }
 section .profile{ /* This section controls styling of the profile photos within the "section" on the "our team" page. */ 
    border-radius: 50%;
@@ -29,9 +29,12 @@ section .profile{ /* This section controls styling of the profile photos within 
    text-align: center;
    font-weight: bold; 
 }
-#websiteTitle {
+#websiteTitle { /* Changed the website style across all pages.*/
     font-family: "Brush Script MT", cursive;
     font-size: 4em;
+}
+.classInfo {
+    background-color: rgb(233, 230, 227);
 }
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
