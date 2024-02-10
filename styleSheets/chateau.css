@@ -23,6 +23,12 @@ dt {
 aside {
     background-color: rgb(202, 196, 196);
 }
+section .profile{ /* This section controls styling of the profile photos within the "section" on the "our team" page. */ 
+   border-radius: 50%;
+   width: 80px;
+   text-align: center;
+   font-weight: bold; 
+}
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
@@ -36,4 +42,7 @@ aside {
         background-image: url(../images/LogoLarge.png); /* This header image for larger screens replaces the small screen default image. */
         min-height: 100px;     
     }
+    section .profile{ /* This scales the profile photos (section/our team) up to a larger size for non-mobile (non-default). */ 
+        width: 150px; 
+     }
 }
