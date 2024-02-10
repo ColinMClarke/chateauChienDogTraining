@@ -14,11 +14,14 @@ main {
     color: navy; /* Determines the main content section's text color */
 }
 img { /* This section scales the images up and down to the screen size. */
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 dt {
     font-weight: bold;
+}
+aside {
+    background-color: rgb(202, 196, 196);
 }
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
