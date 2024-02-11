@@ -1,5 +1,5 @@
 body {
-    background-color: #68B0AB; /* Determines the default background color. */
+    background-color: #68B0AB; /* Coolors.co was used to identify a unified color palette with good performacne characteristics. This color is colorblind-friendly and contrast friendly for the intended text colors. */
     color: black; /*Determines default color*/
     font-family: Arial, Helvetica, sans-serif; /*Determines the font */
 }
@@ -10,8 +10,8 @@ header {
     background-repeat: no-repeat;
 }
 main {
-    background-color: white; /* Determines the main content section's color */
-    color: black; /* Determines the main content section's text color */
+    background-color: white; /* Determines the main content section's color. */
+    color: black; /* Determines the main content section's text color. */
 }
 img { /* This section scales the images up and down to the screen size. */
     width: 100%;
@@ -21,7 +21,7 @@ dt {
     font-weight: bold;
 }
 aside { /* This section styles the unumbered list on the classes page. */
-    background-color: #C8D5B9;
+    background-color: #C8D5B9; /* This color is colorblind-friendly and contrast friendly for the intended text. */
 }
 section .profile{ /* This section controls styling of the profile photos within the "section" on the "our team" page. */ 
    border-radius: 50%;
@@ -34,10 +34,10 @@ section .profile{ /* This section controls styling of the profile photos within 
     font-size: 4em;
 }
 .classInfo { /* Changed background color of some elements on classes page. */
-    background-color: #C7CCB9;
+    background-color: #C7CCB9; /* This color is colorblind-friendly and contrast friendly for the intended text. */
 }
 section { /* Changed background color for profile photo section */
-    background-color: #C8D5B9;
+    background-color: #C8D5B9; /* This color is colorblind-friendly and contrast friendly for the intended text. */
     border-radius: 10px;
 } /* Targets just the occurence of "Chateau Chien" for styling (larger and italic) */ 
 .largerItalics {
@@ -63,7 +63,7 @@ nav { /* Styles navigation. */
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
-        background-color: #8FC0A9;
+        background-color: #8FC0A9; /* This color is colorblind-friendly and contrast-friendly for the intended text. */
         color: black;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }       
