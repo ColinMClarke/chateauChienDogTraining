@@ -1,6 +1,6 @@
 body {
-    background-color: DodgerBlue; /* Determines the default background color. */
-    color: white; /*Determines default color*/
+    background-color: #68B0AB; /* Determines the default background color. */
+    color: black; /*Determines default color*/
     font-family: Arial, Helvetica, sans-serif; /*Determines the font */
 }
 header {
@@ -11,7 +11,7 @@ header {
 }
 main {
     background-color: white; /* Determines the main content section's color */
-    color: navy; /* Determines the main content section's text color */
+    color: black; /* Determines the main content section's text color */
 }
 img { /* This section scales the images up and down to the screen size. */
     width: 100%;
@@ -21,7 +21,7 @@ dt {
     font-weight: bold;
 }
 aside {
-    background-color: rgb(167, 183, 212);
+    background-color: #C8D5B9;
 }
 section .profile{ /* This section controls styling of the profile photos within the "section" on the "our team" page. */ 
    border-radius: 50%;
@@ -34,10 +34,10 @@ section .profile{ /* This section controls styling of the profile photos within 
     font-size: 4em;
 }
 .classInfo { /* Changed background color of some elements on classes page. */
-    background-color: rgb(233, 230, 227);
+    background-color: #C7CCB9;
 }
 section { /* Changed background color for profile photo section */
-    background-color: rgb(159, 216, 216);
+    background-color: #C8D5B9;
     border-radius: 10px;
 } /* Targets just the occurence of "Chateau Chien" for styling (larger and italic) */ 
 .largerItalics {
@@ -63,13 +63,13 @@ nav { /* Styles navigation. */
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
-        background-color: lightskyblue;
-        color: navy;
+        background-color: #8FC0A9;
+        color: black;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }       
     header {
-        background-color: dodgerblue;
-        color: snow;
+        background-color: #68B0AB;
+        color: black;
         background-image: url(../images/LogoLarge.png); /* This header image for larger screens replaces the small screen default image. */
         min-height: 100px;     
     }
