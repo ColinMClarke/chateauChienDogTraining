@@ -16,7 +16,7 @@ main {
 img { /* This section scales the images up and down to the screen size. */
     width: 100%;
     height: auto;
-}
+} /* This section makes the description terms bold */
 dt {
     font-weight: bold;
 }
@@ -44,6 +44,20 @@ section { /* Changed background color for profile photo section */
     font-size: 1.2em;
     font-style: italic;
 }
+nav { /* Styles navigation. */
+    font-size: 1.5em;
+    &:hover a{ /* Descendant selector is the "a" tag. Nested "hover" inside the nav parent causes nav to change color.*/
+        color: yellow;
+    }
+    &:link a{ /* Nested selector makes unvisited link a certain color */
+        color: white;
+    }
+    &:visited a{ /* Nested selector makes visited link a certain color */
+        color: black;
+    }
+}  
+
+
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
