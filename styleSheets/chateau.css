@@ -47,7 +47,7 @@ section { /* Changed background color for profile photo section */
 nav { /* Styles navigation. */
     font-size: 1.5em;
 }   
-nav:visited {
+nav:visited a{
     color: black;
 }
 
