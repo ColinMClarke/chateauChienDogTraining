@@ -46,17 +46,27 @@ section { /* Changed background color for profile photo section */
 }
 nav { /* Styles navigation. */
     font-size: 1.5em;
-    &:hover a{
-        color: yellow;
-    }
-    &:link, a{
-        color: white;
-    }
-    &:visited, a{
-    color: black;
-    }
 }
 
+.navBar a:visited{
+    color: black;
+}
+
+
+.navBar a:link{
+    color: white;
+}
+
+
+
+
+.navBar a:hover { /* Makes the nav links change color on hover. */
+    color: yellow;
+} 
+
+
+
+ 
 
 
 
