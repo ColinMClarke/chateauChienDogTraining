@@ -46,7 +46,7 @@ section { /* Changed background color for profile photo section */
 }
 nav { /* Styles navigation. */
     font-size: 1.5em;
-    &:hover a{ /* Descendant selector is the "a" tag. Nested "hover" inside the nav parent causes nav to change color.*/
+    &:hover a{
         color: yellow;
     }
 
