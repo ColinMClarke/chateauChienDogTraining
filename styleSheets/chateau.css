@@ -46,9 +46,15 @@ section { /* Changed background color for profile photo section */
 }
 nav { /* Styles navigation. */
     font-size: 1.5em;
-}   
-nav:visited a{
+    &:hover a{
+        color: yellow;
+    }
+    &:link a{
+        color: white;
+    }
+    &:visited a{
     color: black;
+    }
 }
 
 
