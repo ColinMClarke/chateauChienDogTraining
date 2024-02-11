@@ -49,12 +49,7 @@ nav { /* Styles navigation. */
     &:hover a{ /* Descendant selector is the "a" tag. Nested "hover" inside the nav parent causes nav to change color.*/
         color: yellow;
     }
-    &:link a{ /* Nested selector makes unvisited link a certain color */
-        color: white;
-    }
-    &:visited a{ /* Nested selector makes visited link a certain color */
-        color: black;
-    }
+
 }  
 
 
