@@ -20,7 +20,7 @@ img { /* This section scales the images up and down to the screen size. */
 dt {
     font-weight: bold;
 }
-aside {
+aside { /* This section styles the unumbered list on the classes page. */
     background-color: #C8D5B9;
 }
 section .profile{ /* This section controls styling of the profile photos within the "section" on the "our team" page. */ 
@@ -29,7 +29,7 @@ section .profile{ /* This section controls styling of the profile photos within 
    text-align: center;
    font-weight: bold; 
 }
-#websiteTitle { /* Changed the website style across all pages.*/
+#websiteTitle { /* Changed the website title typography across all pages.*/
     font-family: "Brush Script MT", cursive;
     font-size: 4em;
 }
