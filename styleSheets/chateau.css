@@ -46,11 +46,12 @@ section { /* Changed background color for profile photo section */
 }
 nav { /* Styles navigation. */
     font-size: 1.5em;
-    &:hover a{
+}    
+nav:hover a{
         color: yellow;
     }
 
-}  
+
 
 
 
