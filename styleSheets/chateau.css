@@ -48,9 +48,14 @@ nav { /* Styles navigation. */
     font-size: 1.5em;
 }    
 nav:hover a{
-        color: yellow;
-    }
-
+    color: yellow;
+}
+nav:link a{
+    color: white;
+}
+nav:visited a{
+    color: black;
+}
 
 
 
