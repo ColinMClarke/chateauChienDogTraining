@@ -48,16 +48,15 @@ nav { /* Styles navigation. */
     font-size: 1.5em;
 }
 
-.navBar a:visited{
-    color: black;
-}
 
-
-.navBar a:link{
+.navBar a:link{ /* Colors nav links that have not yet been clicked. */
     color: white;
 }
 
 
+.navBar a:visited{
+    color: black;
+}
 
 
 .navBar a:hover { /* Makes the nav links change color on hover. */
