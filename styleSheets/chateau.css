@@ -49,10 +49,10 @@ nav { /* Styles navigation. */
     &:hover a{
         color: yellow;
     }
-    &:link a{
+    &:link, a{
         color: white;
     }
-    &:visited a{
+    &:visited, a{
     color: black;
     }
 }
