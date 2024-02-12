@@ -47,17 +47,17 @@ section { /* Changed background color for profile photo section */
 nav { /* Styles navigation. */
     font-size: 1.5em;
 }
-a:link{ /* Colors nav links that have not yet been clicked. */
+.navBar a:link{ /* Colors nav links that have not yet been clicked. */
     color: white;
 }
 
 
-a:visited{ /* Not working, no matter what I try. */
+.navBar a:visited{ /* Not working, no matter what I try. */
     color: black;
 }
 
 
-a:hover { /* Makes the nav links change color on hover. */
+.navBar a:hover { /* Makes the nav links change color on hover. */
     color: yellow;
 } 
 
