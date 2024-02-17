@@ -52,7 +52,7 @@ nav { /* Styles navigation. */
 }
 
 
-.navBar a:visited{ /* Not working, no matter what I try. */
+.navBar a:visited{ /* Makes previously clicked links change color. */
     color: black;
 }
 
