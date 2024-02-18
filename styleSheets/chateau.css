@@ -163,8 +163,6 @@ nav ul{ /* Default (small screen) navigation styling. */
     .columnLeft{ /* This makes the nav bar stay on the left on the classes page. */
         float: left;
         width: 30%;
-        padding-top: 45px;
-        
     }
 
     .columnRight{ /* This makes elements move to the right of the nav bar on the classes page. */
@@ -172,13 +170,12 @@ nav ul{ /* Default (small screen) navigation styling. */
         width: 70%;
         padding-top: 20px; /* Makes space below header bar. */
         padding-bottom: 20px;
-        
     }
     
     .columnLowerLeft{ /* This makes the second row of content stay on the left, below the nav bar (classes page). */
-        float: left;
-        width: 30%;
-        padding-top: 170px; /* Moves the aside way down to be more asethetically aligned with the "class descriptions" content.*/
+        float: left; 
+        width: 30%; 
+        padding-top: 195px; /* Able to independently adjust content placement from the top columns, this moves the aside way down to be more asethetically aligned with the "class descriptions" content.*/
         
     }
 
@@ -186,8 +183,12 @@ nav ul{ /* Default (small screen) navigation styling. */
         float: right;
         width: 70%;
         padding-top: 20px; 
-        padding-bottom: 20px;
-        
-        
+        padding-bottom: 20px;  
+    }
+
+    footer{
+        background-color: #68B0AB; /* Adds contrast to footer box for the new color scheme (only needed on large screen format). */
+        text-align: center;
+        clear: both; /* Allows footer to move to new line to clear the page's new 2 column layout (only applies to large screen format). */
     }
 }
