@@ -104,7 +104,7 @@ nav { /* Styles navigation. */
         padding: 0;
     }
 
-    li a{
+    .navBar li a{
         display: block;
         width: 120px;
         background-color: #68B0AB;
