@@ -168,22 +168,23 @@ nav ul{ /* Default (small screen) navigation styling. */
     .columnRight{ /* This makes elements move to the right of the nav bar on the classes page. */
         float: right;
         width: 70%;
-        padding-top: 20px; /* Makes space below header bar. */
+        padding-top: 40px; /* Makes space below header bar. */
         padding-bottom: 20px;
     }
     
     .columnLowerLeft{ /* This makes the second row of content stay on the left, below the nav bar (classes page). */
         float: left; 
-        width: 30%; 
-        padding-top: 195px; /* Able to independently adjust content placement from the top columns, this moves the aside way down to be more asethetically aligned with the "class descriptions" content.*/
-        
+        width: 27%; 
+        padding-top: 215px; /* Able to independently adjust content placement from the top columns, this moves the aside way down to be more asethetically aligned with the "class descriptions" content.*/
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .columnLowerRight{ /* This makes the second row of content go to the right (classes page). */
         float: right;
         width: 70%;
         padding-top: 20px; 
-        padding-bottom: 20px;  
+        padding-bottom: 40px;  
     }
 
     footer{
