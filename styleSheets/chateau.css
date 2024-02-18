@@ -27,6 +27,16 @@ dt { /* This section makes the description terms bold */
 
 aside { /* This section styles the unumbered list on the classes page. */
     background-color: #C8D5B9; /* This color is colorblind-friendly and contrast friendly for the intended text. */
+    border-radius: 25px; /* Rounds corners. */
+    border-style: solid; /* Creates a border. */
+    padding-left: 20px; /* Makes space so the text box doesn't look so crowded. */
+    padding-right: 20px;
+    padding-top: 5px; /* Different padding for top/bottom and sides. */
+    padding-bottom: 5px;
+}
+
+aside h2{ /* Styles the "pick the right class fro you" heading in the classes page. */
+    text-align: center;
 }
 
 section .profile{ /* This section controls styling of the profile photos within the "section" on the "our team" page. */ 
@@ -43,6 +53,18 @@ section .profile{ /* This section controls styling of the profile photos within 
 
 .classInfo { /* Changed background color of some elements on classes page. */
     background-color: #C7CCB9; /* This color is colorblind-friendly and contrast friendly for the intended text. */
+    padding-left: 20px; /* Makes space so the text box doesn't look so crowded. */
+    padding-right: 20px;
+    padding-top: 5px; /* Different padding for top/bottom and sides. */
+    padding-bottom: 5px;
+}
+
+.classInfo h2{ /* Styles the "class descriptions" heading in the classes page. */ 
+    text-align: center;
+}
+
+.classInfo h3{ /* Styles the "how to get started" heading in the classes page. */ 
+    text-align: center;
 }
 
 section { /* Changed background color for profile photo section */
@@ -73,13 +95,13 @@ nav { /* Styles navigation. */
     color: yellow;
 } 
 
-nav ul{
+nav ul{ /* Default (small screen) navigation styling. */
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
 
-.navBar li {
+.navBar li { /* Default (small screen) navigation styling- horizontal. */
     display: inline;
     background-color: #8FC0A9;
     padding-inline: 10px;
@@ -108,13 +130,13 @@ nav ul{
         width: 150px; 
     }
 
-    nav ul{
+    nav ul{ /* Large screen navigation styling. */
         list-style-type: none;
         margin: 0px;
         padding-top: 20px;
     }
 
-    .navBar li a{
+    .navBar li a{ /* Large screen navigation styling- vertical. */
         display: block;
         width: 120px;
         background-color: #68B0AB;
@@ -122,4 +144,18 @@ nav ul{
         text-align: center;
         margin-bottom: 20px;
     } 
+
+    aside {
+        padding-left: 40px; /* Makes even more space around the words in large screen displays. */
+        padding-right: 40px;
+        padding-top: 10px; /* Different padding for top/bottom and sides. */
+        padding-bottom: 10px;
+    }
+
+    .classInfo{
+        padding-left: 40px; /* Makes even more space around the words in large screen displays. */
+        padding-right: 40px;
+        padding-top: 10px; /* Different padding for top/bottom and sides. */
+        padding-bottom: 10px;
+    }
 }
