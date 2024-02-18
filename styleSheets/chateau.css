@@ -12,12 +12,12 @@ header {
 }
 
 main {
-    background-color: white; /* Determines the main content section's color. */
+    background-color: #8FC0A9; /* Determines the main content section's color. */
     color: black; /* Determines the main content section's text color. */
 }
 
 img { /* This section scales the images up and down to the screen size. */
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
  
@@ -150,6 +150,7 @@ nav ul{ /* Default (small screen) navigation styling. */
         padding-right: 40px;
         padding-top: 10px; /* Different padding for top/bottom and sides. */
         padding-bottom: 10px;
+        clear: both; /* Moves the aside down below the floated 1st row columns. */
     }
 
     .classInfo{
@@ -157,5 +158,36 @@ nav ul{ /* Default (small screen) navigation styling. */
         padding-right: 40px;
         padding-top: 10px; /* Different padding for top/bottom and sides. */
         padding-bottom: 10px;
+    }
+
+    .columnLeft{ /* This makes the nav bar stay on the left on the classes page. */
+        float: left;
+        width: 30%;
+        padding-top: 45px;
+        
+    }
+
+    .columnRight{ /* This makes elements move to the right of the nav bar on the classes page. */
+        float: right;
+        width: 70%;
+        padding-top: 20px; /* Makes space below header bar. */
+        padding-bottom: 20px;
+        
+    }
+    
+    .columnLowerLeft{ /* This makes the second row of content stay on the left, below the nav bar (classes page). */
+        float: left;
+        width: 30%;
+        padding-top: 170px; /* Moves the aside way down to be more asethetically aligned with the "class descriptions" content.*/
+        
+    }
+
+    .columnLowerRight{ /* This makes the second row of content go to the right (classes page). */
+        float: right;
+        width: 70%;
+        padding-top: 20px; 
+        padding-bottom: 20px;
+        
+        
     }
 }

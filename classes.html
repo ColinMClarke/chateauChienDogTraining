@@ -11,44 +11,52 @@
             <h1 id="websiteTitle">Chateau Chien</h1>
         </header>
         <nav>
-            <ul class="navBar">
-                <li><a href= "index.html">Home</a></li> <!-- The 'a' makes it a hyperlink, the 'href' points at where to go and the text is what will show in the navigation. -->
-                <li><a href= "classes.html">Classes</a></li> 
-                <li><a href= "ourTeam.html">Our Team</a></li> 
-                <li><a href= "contact.html">Contact</a></li>
-            </ul>
+            <div class="columnLeft"> <!-- Container for making two columns. -->
+                <ul class="navBar">
+                    <li><a href= "index.html">Home</a></li> <!-- The 'a' makes it a hyperlink, the 'href' points at where to go and the text is what will show in the navigation. -->
+                    <li><a href= "classes.html">Classes</a></li> 
+                    <li><a href= "ourTeam.html">Our Team</a></li> 
+                    <li><a href= "contact.html">Contact</a></li>
+                    </ul>
+            </div>    
         </nav>
         <main>
-            <img src="images/ClassesDogs.jpg" alt="A row of well-behaved dogs on leashes each sitting next to their trainers"> <!-- The page's main image and its description. -->            
-            <aside> <!-- This groups the unordered list as one unit for styling in CSS. -->
-            <h2>Pick the right class for you!</h2> <!-- The second header's text. -->
-                <ul> <!-- This section denotes an unordered (bulleted) list.-->
-                <li>Treats and toys provided in all classes.</li>
-                <li>Sessions last two hours.</li>
-                <li>New classes start at the beginning of every month.</li>
-                <li>Bring your favorite leash.</li>
-                </ul>
-            </aside>
-            <br> <!-- Extra space helps the headings better correlate to text below. -->
-            <div class="classInfo"> <!-- Makes a container for styling "class descriptions" section and "how to start" together. -->
-                <h2>Class Descriptions</h2> <!-- Another header. -->     
-                <dl>
-                    <dt>Puppy Pawsitivity</dt> <!-- The 'dl' defines the dictionary/description list, the 'dt' defines the dictionary term and the 'dd' defines the element. -->
-                    <dd>This class helps with socialization skills, potty and crate training. Learn foundational cues like <q>sit</q>, <q>down</q> and <q>come</q>. Get tips on how to address chewing, teething and jumping on guests. For new puppies to 8 months old.</dd> <!-- Note the 'q' goes around words to create quotation marks. -->
-                    <dt>Dynamic Dogs</dt>
-                    <dd>This class is for dogs over 6 months who understand the basics and need to upgrade their skills. Learn loose-leash walking, <q>Leave it</q>, <q>wait</q> and <q>lay down</q>. Get tips on excessive barking, and greeting strangers. Tips to curb undesired behaviors such as jumping, barking and digging.</dd>
-                    <dt>Tricks and Treats</dt>
-                    <dd>In this class, you will learn common tricks like <q>shake paw</q>, <q>beg</q> or <q>play dead</q>. The class will strengthen socialization skills and assist with any lingering behavioral issues. For dogs over 1 year.</dd>
-                </dl>
-                <br>
-                <h3>How to get started</h3> <!-- The sub-header's text. -->
-                <ol> <!-- This section denotes an ordered (numbered) list.-->
-                    <li>Pick which class you want to take.</li>
-                    <li>Check availability on our calendar.</li>
-                    <li>Call or email to reserve your date.</li>
-                    <li>We'll see you soon!</li>
-                </ol>
+            <div class="columnRight"> <!-- Container for making two columns. -->
+                <img src="images/ClassesDogs.jpg" alt="A row of well-behaved dogs on leashes each sitting next to their trainers"> <!-- The page's main image and its description. -->            
+            </div>    
+            <div class="columnLowerLeft"> <!-- Container for making two columns. -->    
+                <aside> <!-- This groups the unordered list as one unit for styling in CSS. -->
+                <h2>Pick the right class for you!</h2> <!-- The second header's text. -->
+                    <ul> <!-- This section denotes an unordered (bulleted) list.-->
+                        <li>Treats and toys provided in all classes.</li>
+                        <li>Sessions last two hours.</li>
+                        <li>New classes start at the beginning of every month.</li>
+                        <li>Bring your favorite leash.</li>
+                    </ul>
+                </aside>
             </div>
+            <br> <!-- Extra space helps the headings better correlate to text below. -->
+            <div class="columnLowerRight"> <!-- Container for making two columns. -->
+                <div class="classInfo"> <!-- Makes a container for styling "class descriptions" section and "how to start" together. -->
+                    <h2>Class Descriptions</h2> <!-- Another header. -->     
+                    <dl>
+                        <dt>Puppy Pawsitivity</dt> <!-- The 'dl' defines the dictionary/description list, the 'dt' defines the dictionary term and the 'dd' defines the element. -->
+                        <dd>This class helps with socialization skills, potty and crate training. Learn foundational cues like <q>sit</q>, <q>down</q> and <q>come</q>. Get tips on how to address chewing, teething and jumping on guests. For new puppies to 8 months old.</dd> <!-- Note the 'q' goes around words to create quotation marks. -->
+                        <dt>Dynamic Dogs</dt>
+                        <dd>This class is for dogs over 6 months who understand the basics and need to upgrade their skills. Learn loose-leash walking, <q>Leave it</q>, <q>wait</q> and <q>lay down</q>. Get tips on excessive barking, and greeting strangers. Tips to curb undesired behaviors such as jumping, barking and digging.</dd>
+                        <dt>Tricks and Treats</dt>
+                        <dd>In this class, you will learn common tricks like <q>shake paw</q>, <q>beg</q> or <q>play dead</q>. The class will strengthen socialization skills and assist with any lingering behavioral issues. For dogs over 1 year.</dd>
+                    </dl>
+                    <br>
+                    <h3>How to get started</h3> <!-- The sub-header's text. -->
+                    <ol> <!-- This section denotes an ordered (numbered) list.-->
+                        <li>Pick which class you want to take.</li>
+                        <li>Check availability on our calendar.</li>
+                        <li>Call or email to reserve your date.</li>
+                        <li>We'll see you soon!</li>
+                    </ol>
+                </div>
+            </div>    
                 <br>
         </main>
         <footer>
