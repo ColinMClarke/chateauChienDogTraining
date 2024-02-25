@@ -108,7 +108,7 @@ nav a:hover { /* Makes the nav links change color on hover. */
 }
 
 nav a { /* Default (small screen) navigation styling. */
-    width: 100px;
+    width: 110px;
     background-color: #8FC0A9;
     padding: 5px;
     text-align: center;
@@ -121,7 +121,9 @@ nav a { /* Default (small screen) navigation styling. */
     justify-content: space-evenly;
 }
 
-
+*, *::before, *::after { /* This makes every element include its borders and padding in its total defined size. */
+    box-sizing: border-box;
+}
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
