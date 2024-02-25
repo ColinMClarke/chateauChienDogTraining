@@ -70,6 +70,12 @@ section .profile{ /* This section controls styling of the profile photos within 
 section { /* Changed background color for profile photo section */
     background-color: #C8D5B9; /* This color is colorblind-friendly and contrast friendly for the intended text. */
     border-radius: 10px;
+    text-align: center;
+}
+
+ol.ourTeam { /* This controls the elemnts of the list in the "our team" section of the "our team" page. */
+    display: inline-block;
+    text-align: left;
 }
  
 .largerItalics { /* Targets just the occurence of "Chateau Chien" for styling (larger and italic) */ 
@@ -109,7 +115,11 @@ nav ul{ /* Default (small screen) navigation styling. */
     margin-right: 20px;
   }
 
-
+.flexGalleryContainer { /* Applies styling to the flex-box container around the headshots of the "our team" page. */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */

@@ -19,25 +19,43 @@
             </ul>
         </nav>
         <main>
-            <h2>Our Team</h2> <!-- This is placeholder text. -->
+            <h2>Our Team</h2> 
             <section> <!-- This creates a section for the team content (able to be controlled seperate from the other page contents). -->  
-                <ol>Our trainers are: 
+                <ol class="ourTeam">Our trainers are: <!-- This class allows the list to be styled. -->
                     <li>Experienced</li>
                     <li>Helpful</li>
                     <li>Available for private lessons</li>
                 </ol>
-                <figure> <!-- This semantic tag groups the image and the caption. -->
-                    <img class="profile" src="images/trainer2.jpeg" alt="A clean-shaven, middle aged man with salt and pepper colored hair, wearing glasses" > <!-- Note the image class allows grouping of all three profile photos below. -->
-                    <figcaption class="profile">Luca Rossi</figcaption>
-                </figure>
-                <figure> <!-- This semantic tag groups the image and the caption. -->
-                    <img class="profile" src="images/trainer3.jpeg" alt="A young woman with long black hair, short bangs, and small earings">
-                    <figcaption class="profile">Ngoc Nguyen</figcaption>
-                </figure>
-                <figure> <!-- This semantic tag groups the image and the caption. -->
-                    <img class="profile" src="images/trainer6.jpeg" alt="A young woman with wavy, strawberry blonde hair">
-                    <figcaption class="profile">Cara O'Brian</figcaption>
-                </figure>
+                <div class="flexGalleryContainer"> <!-- This is a flexbox container for all the trainer images. -->
+                    <figure> <!-- This semantic tag groups the image and the caption. -->
+                        <img class="profile" src="images/trainer2.jpeg" alt="A clean-shaven, middle aged man with salt and pepper colored hair, wearing glasses" > <!-- Note the image class allows grouping of all three profile photos below. -->
+                        <figcaption class="profile">Luca Rossi</figcaption>
+                    </figure>
+                    <figure> <!-- This semantic tag groups the image and the caption. -->
+                        <img class="profile" src="images/trainer3.jpeg" alt="A young woman with long black hair, short bangs, and small earings">
+                        <figcaption class="profile">Ngoc Nguyen</figcaption>
+                    </figure>
+                    <figure> <!-- This semantic tag groups the image and the caption. -->
+                        <img class="profile" src="images/trainer6.jpeg" alt="A young woman with wavy, strawberry blonde hair">
+                        <figcaption class="profile">Cara O'Brian</figcaption>
+                    </figure>
+                    <figure> <!-- This semantic tag groups the image and the caption. -->
+                        <img class="profile" src="images/Trainer5.jpg" alt="A young man with short, dark hair">
+                        <figcaption class="profile">Luiz Alves</figcaption>
+                    </figure>
+                    <figure> <!-- This semantic tag groups the image and the caption. -->
+                        <img class="profile" src="images/trainer7.jpeg" alt="A young woman with straight, light brown hair">
+                        <figcaption class="profile">Jessica Wilkes</figcaption>
+                    </figure>
+                    <figure> <!-- This semantic tag groups the image and the caption. -->
+                        <img class="profile" src="images/trainer8.jpeg" alt="A young woman with straight, dark brown hair">
+                        <figcaption class="profile">Sheila Jackson</figcaption>
+                    </figure>
+                    <figure> <!-- This semantic tag groups the image and the caption. -->
+                        <img class="profile" src="images/trainer4.jpeg" alt="A young woman with straight, dark redish brown hair">
+                        <figcaption class="profile">Mina Lin</figcaption>
+                    </figure>
+                </div>
             </section>
             <a href="https://www.charlescountymd.gov/services/animal-care-control/animal-care-center"> <!-- The 'a and href' add a hyperlink to the image nesteed within and define the address. -->
                 <img src="images/sponsor.png" alt="The word, sponsors, overtop of a handshake" style="width:230px;height:230px;"> <!-- Note the 'style' attribute. This prevents 'max-width' in the stylesheet from overriding the width here. The image is not responsive, but should fit in all screen, so no worries. -->
