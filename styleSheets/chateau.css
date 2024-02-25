@@ -150,8 +150,9 @@ nav a { /* Default (small screen) navigation styling. */
         background-color: #68B0AB;
         padding: 5px;
         text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-top: 40px;
+        margin-bottom: 0px;
     } 
 
     aside {
