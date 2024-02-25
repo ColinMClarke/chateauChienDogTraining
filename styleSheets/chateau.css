@@ -136,7 +136,8 @@ nav a { /* Default (small screen) navigation styling. */
         background-color: #68B0AB;
         color: black;
         background-image: url(../images/LogoLarge.png); /* This header image for larger screens replaces the small screen default image. */
-        min-height: 100px;     
+        min-height: 100px;
+        margin-top: -35px;  
     }
 
     section .profile{ /* This scales the profile photos (section/our team) up to a larger size for non-mobile (non-default). */ 
