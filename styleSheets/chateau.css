@@ -122,6 +122,7 @@ nav a { /* Default (small screen) navigation styling. */
 }
 
 
+
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
         background-color: #8FC0A9; /* This color is colorblind-friendly and contrast-friendly for the intended text. */
@@ -143,6 +144,12 @@ nav a { /* Default (small screen) navigation styling. */
     .flexNavContainer{ /* Large screen vertical styling. */
         display: flex;
         flex-direction: column;
+        height: 100vh; /* Makes the height the full size of the viewport. */
+    }
+
+    main {
+        height: 100vh;
+        overflow: scroll;
     }
 
     nav a{ /* Large screen navigation styling- vertical. */
@@ -151,9 +158,13 @@ nav a { /* Default (small screen) navigation styling. */
         padding: 5px;
         text-align: center;
         margin-left: 0px;
-        margin-top: 40px;
+        margin-top: 0px;
         margin-bottom: 0px;
     } 
+
+    .flexNavPlusMain {
+        display: flex;
+    }
 
     aside {
         padding-left: 40px; /* Makes even more space around the words in large screen displays. */
