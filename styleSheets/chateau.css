@@ -125,6 +125,11 @@ nav a { /* Default (small screen) navigation styling. */
     box-sizing: border-box;
 }
 
+.flexAlignItem { /* This fills the viewport width on the contacts page. */
+    width: 100vw;
+}
+
+
 @media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
         background-color: #8FC0A9; /* This color is colorblind-friendly and contrast-friendly for the intended text. */
@@ -216,4 +221,6 @@ nav a { /* Default (small screen) navigation styling. */
         text-align: center;
         clear: both; /* Allows footer to move to new line to clear the page's new 2 column layout (only applies to large screen format). */
     }
+
+
 }
