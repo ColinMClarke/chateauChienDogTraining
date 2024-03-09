@@ -222,5 +222,43 @@ nav a { /* Default (small screen) navigation styling. */
         clear: both; /* Allows footer to move to new line to clear the page's new 2 column layout (only applies to large screen format). */
     }
 
+    .gridContainer{ /* This section sets up the grid for the images on the "our graduates" page. */ 
+        display: grid;
+        grid-template-columns: auto auto auto; /* Each "auto" creates a column with auto sizing. Repeating it 3 times makes 3 columns. */
+        grid-template-rows: auto; /* Rows were not defined explicitly. The extra grid items make implicit rows appear until out of items. */
+        grid-gap: 15px; /* Makes space between images. */
+    }
+
+    .gridContainer img{ 
+        height: 100%; /* This fixed the ununiform gap left by the tall image. */
+    }
+
+    .chocolateLabImg {
+        grid-area: 1 / 1 / span 2 / span 1;
+    }
+
+    .beagleImg {
+        grid-area: 1 / 2 ;
+    }
+
+    .huskyImg {
+        grid-area: 1 / 3;
+    }
+
+    .terrierImg {
+        grid-area: 2 / 2;
+    }
+
+    .pomeranianImg {
+        grid-area: 2 / 3;
+    }
+
+    .yellowLabsImg {
+        grid-area: 3 / 1 / span 1/ span 2;
+    }
+
+    .jackRusselImg {
+        grid-area: 3 / 3 ;
+    }
 
 }
