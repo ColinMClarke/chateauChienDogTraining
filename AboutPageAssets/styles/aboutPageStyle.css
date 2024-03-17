@@ -73,10 +73,10 @@ header .profileHeader p {
 }
 
 /* Main Content sections */
-.mainContent .section1 {
+.mainContent {
 	display: block;
 }
-.section1 .sectionTitle, .section2 .sectionTitle {
+.sectionTitle, .section2 .sectionTitle {
 	font-family: 'Montserrat', sans-serif;
 	color: black; /* I changed the text color for better contrast*/
 	font-size: 18px;
@@ -84,23 +84,23 @@ header .profileHeader p {
 	text-transform: uppercase;
 	background-color: #8FC0A9; /* I added this color to go with the existing theme. */
 }
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+.sectionTitleRule, .section2 .sectionTitleRule {
 	margin: 0 3% 0 0;
 	float: left;
 	clear: both;
 }
-.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+.sectionTitleRule2, .section2 .sectionTitleRule2 {
 	background-color: #68B0AB;
 	height: 1px;
 	padding: 0px;
 }
-.mainContent .section1 .section1Content {
+.mainContent {
 	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 100;
 	color: rgba(208,207,207,1.00);
 }
-.mainContent .section1 .section1Content span {
+.mainContent span {
 	color: rgba(146,146,146,1.00);
 	font-family: sans-serif;
 }
@@ -205,20 +205,20 @@ header .socialNetworkNavBar {
 }
 
 /* Main content sections */
-.mainContent .section1 {
+.mainContent {
 	text-align: center;
 	margin-bottom: 10%;
 }
-.section1 .section1Title, .section2 .section1Title {
+.section2 {
 	text-align: center;
 }
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+.sectionTitleRule, .section2 .sectionTitleRule {
 	width: 100%;
 }
-.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+.sectionTitleRule2, .section2 .sectionTitleRule2 {
 	display: none;
 }
-.mainContent .section1 .section1Content {
+.mainContent {
 	display: inline-block;
 	text-align: left;
 	font-family: sans-serif;
@@ -271,16 +271,16 @@ header .profileHeader {
 }
 
 /* Main content and sections */
-.section1 .section1Title, .section2 .section1Title {
+.section2 {
 	text-align: center;
 }
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+.sectionTitleRule, .section2 .sectionTitleRule {
 	width: 100%;
 }
-.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+.sectionTitleRule2, .section2 .sectionTitleRule2 {
 	display: none;
 }
-.mainContent .section1 .section1Content {
+.mainContent .section1 {
 	display: block;
 	margin: 0% 0% 0% 20%;
 	font-family: sans-serif;
@@ -346,10 +346,10 @@ header .socialNetworkNavBar .socialNetworkNav {
 	margin-right: 23px;
 }
 /* Main content sections */
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+.sectionTitleRule, .section2 .sectionTitleRule {
 	width: 22.5%;
 }
-.mainContent .section1 .section1Content {
+.mainContent .section1 {
 	display: block;
 	margin-top: 0%;
 	margin-right: 0%;
