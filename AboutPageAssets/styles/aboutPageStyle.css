@@ -273,11 +273,14 @@ header .profileHeader {
 	margin-top: 7%;
 }
 .externalResourcesNav{
-	display: flex; /* Using flexbox alingment fixed the wonky, not quite centered boxes on screens in the 481 to 550 range. */
+	display: flex; /* Using flexbox alingment fixed the not quite centered buttons on screens in the 481 to 550 range. */
 	align-items: center;
 	height: 100%;
 	}
-
+.mainImages{
+	height: 300px;
+	margin-top: 50px; /*Gets the image below the header background when switching to tablet screen size*/
+}
 /* Main content and sections */
 .section2 {
 	text-align: center;
