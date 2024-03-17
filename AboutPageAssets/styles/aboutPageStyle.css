@@ -177,7 +177,7 @@ footer .footerNote span {
 
 
 /* Media query for Mobile devices*/
-@media only screen and (min-width : 285px) and (max-width : 480px) {
+@media only screen and ( min-width : 285px ) and (max-width : 481px ){
 /* Header */
 header {
 	width: 100%;
@@ -204,7 +204,7 @@ header .socialNetworkNavBar {
 	margin-bottom: 15%;
 }
 .externalResourcesNav{
-	margin:auto
+	margin:auto /* Fixed misalignment of the buttons on screens at or below 480pixels. */
 	}
 
 /* Main content sections */
