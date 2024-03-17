@@ -289,6 +289,7 @@ header .profileHeader {
 }
 .mainContent .section2 {
 	clear: both;
+	text-align: left;
 }
 .section2 .section2Content {
 	padding: 0px;
