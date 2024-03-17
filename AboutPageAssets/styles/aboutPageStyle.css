@@ -203,6 +203,9 @@ header .socialNetworkNavBar {
 	clear: both;
 	margin-bottom: 15%;
 }
+.externalResourcesNav{
+	align-items: center; 
+	}
 
 /* Main content sections */
 .mainContent {

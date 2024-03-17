@@ -1,3 +1,5 @@
+/***************** This first section is for UNIVERSAL RULES and SMALL SCREEN RULES *****************/
+
 body {
     background-color: #68B0AB; /* Coolors.co was used to identify a unified color palette with good performacne characteristics. This color is colorblind-friendly and contrast friendly for the intended text colors. */
     color: black; /*Determines default color*/
@@ -173,7 +175,10 @@ nav a { /* Default (small screen) navigation styling. */
 }
 
 
-@media screen and (min-width: 768px) { /* The following section defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
+
+/***************** This second section is for LARGE SCREEN RULES *****************/
+
+@media screen and (min-width: 768px) { /* Defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
         background-color: #8FC0A9; /* This color is colorblind-friendly and contrast-friendly for the intended text. */
         color: black;
