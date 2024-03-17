@@ -203,9 +203,6 @@ header .socialNetworkNavBar {
 	clear: both;
 	margin-bottom: 15%;
 }
-.externalResourcesNav{
-	align-items: center; 
-	}
 
 /* Main content sections */
 .mainContent {
@@ -272,6 +269,11 @@ header .profileHeader {
 	text-align: left;
 	margin-top: 7%;
 }
+.externalResourcesNav{
+	display: flex; /* Using flexbox alingment fixed the wonky, not quite centered boxes on screens in the 481 to 550 range. */
+	align-items: center;
+	height: 100%; 
+	}
 
 /* Main content and sections */
 .section2 {
