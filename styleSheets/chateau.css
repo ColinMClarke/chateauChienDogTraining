@@ -27,11 +27,11 @@ img { /* This section scales the images up and down to the screen size. */
     height: auto;
 }
  
-dt { /* This section makes the description terms bold */
+dt { /* This section makes the description terms bold on the CLASSES PAGE */
     font-weight: bold;
 }
 
-aside { /* This section styles the unumbered list on the classes page. */
+aside { /* This section styles the unumbered list on the CLASSES PAGE. */
     background-color: #C8D5B9; /* This color is colorblind-friendly and contrast friendly for the intended text. */
     border-radius: 25px; /* Rounds corners. */
     border-style: solid; /* Creates a border. */
@@ -41,15 +41,8 @@ aside { /* This section styles the unumbered list on the classes page. */
     padding-bottom: 5px;
 }
 
-aside h2{ /* Styles the "pick the right class fro you" heading in the classes page. */
+aside h2{ /* Styles the "pick the right class for you" heading in the CLASSES PAGE. */
     text-align: center;
-}
-
-section .profile{ /* This section controls styling of the profile photos within the "section" on the "our team" page. */ 
-   border-radius: 50%;
-   width: 80px;
-   text-align: center;
-   font-weight: bold; 
 }
 
 #websiteTitle { /* Changed the website title typography across all pages.*/
@@ -57,7 +50,7 @@ section .profile{ /* This section controls styling of the profile photos within 
     font-size: 4em;
 }
 
-.classInfo { /* Changed background color of some elements on classes page. */
+.classInfo { /* Changed background color of some elements on CLASSES PAGE. */
     background-color: #C7CCB9; /* This color is colorblind-friendly and contrast friendly for the intended text. */
     padding-left: 20px; /* Makes space so the text box doesn't look so crowded. */
     padding-right: 20px;
@@ -65,21 +58,28 @@ section .profile{ /* This section controls styling of the profile photos within 
     padding-bottom: 5px;
 }
 
-.classInfo h2{ /* Styles the "class descriptions" heading in the classes page. */ 
+.classInfo h2{ /* Styles the "class descriptions" heading in the CLASSES PAGE. */ 
     text-align: center;
 }
 
-.classInfo h3{ /* Styles the "how to get started" heading in the classes page. */ 
+.classInfo h3{ /* Styles the "how to get started" heading in the CLASSES PAGE. */ 
     text-align: center;
 }
 
-section { /* Changed background color for profile photo section */
+section .profile{ /* This section controls styling of the profile photos within the "section" on the OUR TEAM PAGE. */ 
+   border-radius: 50%;
+   width: 80px;
+   text-align: center;
+   font-weight: bold; 
+}
+
+section { /* Changed background color for profile photo section on the OUR TEAM PAGE. */
     background-color: #C8D5B9; /* This color is colorblind-friendly and contrast friendly for the intended text. */
     border-radius: 10px;
     text-align: center;
 }
 
-ol.ourTeam { /* This controls the elemnts of the list in the "our team" section of the "our team" page. */
+ol.ourTeam { /* This controls the elemnts of the list in the "our team" section of the OUR TEAM PAGE. */
     display: inline-block;
     text-align: left;
 }
@@ -121,7 +121,7 @@ nav a { /* Default (small screen) navigation styling. */
     margin: 15px;
   }
 
-.flexGalleryContainer { /* Applies styling to the flex-box container around the headshots of the "our team" page. */
+.flexGalleryContainer { /* Applies styling to the flex-box container around the headshots of the OUR TEAM PAGE. */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -131,11 +131,11 @@ nav a { /* Default (small screen) navigation styling. */
     box-sizing: border-box;
 }
 
-.flexAlignItem { /* This fills the viewport width on the contacts page. */
+.flexAlignItem { /* This fills the viewport width on the CONTACTS PAGE. */
     width: 100vw;
 }
 
-.gridContainer{ /* This section sets up the grid for the images on the "our graduates" page (small screens). */ 
+.gridContainer{ /* This section sets up the grid for the images on the OUR GRADUATES PAGE (small screens). */ 
     display: grid;
     grid-template-columns: auto auto; /* Each "auto" creates a column with auto sizing. Repeating it 2 times makes 2 columns. */
     grid-template-rows: auto; /* Rows were not defined explicitly. The extra grid items make implicit rows appear until out of items. */
@@ -193,7 +193,7 @@ nav a { /* Default (small screen) navigation styling. */
         margin-top: -35px;  
     }
 
-    section .profile{ /* This scales the profile photos (section/our team) up to a larger size for non-mobile (non-default). */ 
+    section .profile{ /* This scales the profile photos (section/OUR TEAM PAGE) up to a larger size for non-mobile (non-default). */ 
         width: 150px; 
     }
 
@@ -237,27 +237,27 @@ nav a { /* Default (small screen) navigation styling. */
         padding-bottom: 10px;
     }
 
-    .columnLeft{ /* This makes the nav bar stay on the left on the classes page. */
+    .columnLeft{ /* This makes the nav bar stay on the left on the CLASSES PAGE. */
         float: left;
         width: 30%;
     }
 
-    .columnRight{ /* This makes elements move to the right of the nav bar on the classes page. */
+    .columnRight{ /* This makes elements move to the right of the nav bar on the CLASSES PAGE. */
         float: right;
         width: 70%;
         padding-top: 40px; /* Makes space below header bar. */
         padding-bottom: 20px;
     }
     
-    .columnLowerLeft{ /* This makes the second row of content stay on the left, below the nav bar (classes page). */
+    .columnLowerLeft{ /* This makes the second row of content stay on the left, below the nav bar (CLASSES PAGE). */
         float: left; 
         width: 27%; 
-        padding-top: 215px; /* Able to independently adjust content placement from the top columns, this moves the aside way down to be more asethetically aligned with the "class descriptions" content.*/
+        padding-top: 215px; /* Able to independently adjust content placement from the top columns, this moves the aside way down to be more asethetically aligned with the "class descriptions" content (CLASSES PAGE).*/
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .columnLowerRight{ /* This makes the second row of content go to the right (classes page). */
+    .columnLowerRight{ /* This makes the second row of content go to the right (CLASSES PAGE). */
         float: right;
         width: 70%;
         padding-top: 20px; 
@@ -270,7 +270,7 @@ nav a { /* Default (small screen) navigation styling. */
         clear: both; /* Allows footer to move to new line to clear the page's new 2 column layout (only applies to large screen format). */
     }
 
-    .gridContainer{ /* This section sets up the grid for the images on the "our graduates" page (large screens). */ 
+    .gridContainer{ /* This section sets up the grid for the images on the OUR GRADUATES PAGE (large screens). */ 
         display: grid;
         grid-template-columns: auto auto auto; /* Each "auto" creates a column with auto sizing. Repeating it 3 times makes 3 columns. */
         grid-template-rows: auto; /* Rows were not defined explicitly. The extra grid items make implicit rows appear until out of items. */
@@ -278,7 +278,7 @@ nav a { /* Default (small screen) navigation styling. */
     }
 
     .gridContainer img{ 
-        height: 100%; /* This fixed the ununiform gap left by the tall image. */
+        height: 100%; /* This fixed the ununiform gap left by the tall image (OUR GRADUATES PAGE). */
     }
 
     .chocolateLabImg { /* Each of the following dog Img properties places the image within the grid and in the case of wide/tall images, defines how many cells it spans. */

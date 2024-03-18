@@ -20,7 +20,7 @@ body {
 	width: 150px;
 	border-radius: 25px; /* Profile image corners rounded to match the style of the template */
 	float: left; /* Wraps text around profile images */
-	padding-right: 10px;
+	margin-right: 10px;
 }
 
 /* Header */
