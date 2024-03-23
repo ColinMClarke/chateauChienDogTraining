@@ -76,6 +76,9 @@ header .profileHeader p {
 .mainContent {
 	display: block;
 }
+.sectionTitle{
+	text-align: center; /* Centering title clears up ambiguity of what section the title refers to. */
+}
 .sectionTitle, .section2 .sectionTitle {
 	font-family: 'Montserrat', sans-serif;
 	color: black; /* I changed the text color for better contrast*/
