@@ -58,9 +58,20 @@
                 <br>
         </main>
         <footer>
-            Copyright &copy; 2023 <span class="largerItalics">Chateau Chien</span> <!-- The span tag targets just the word it surrounds (for styling) -->
+            Copyright &copy; 2024 <span class="largerItalics">Chateau Chien</span> <!-- The span tag targets just the word it surrounds (for styling) -->
             <br>
-            <a href= "mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a> <!-- The 'mailto:' opens the user's email program and the text that follows defines the address. -->
+            Today's date is <p style="display:inline" id="myId"></p> <!-- Creates text and a script for today's date on same line. -->
+            <script> 
+                var date = new Date(); 
+                var dd = date.getDate(); 
+                var mm = date.getMonth() + 1; 
+                var yyyy = date.getFullYear(); 
+                var newDate = mm + "-" + dd + "-" +yyyy; 
+                var p = document.getElementById("myId"); 
+                p.innerHTML = newDate; 
+            </script>
+            <br> 
+            <a href= "mailto:CustomerSupport@ChateauChien.com">CustomerSupport@yChateuChien.com</a> <!-- The 'mailto:' opens the user's email program and the text that follows defines the address. -->
         </footer>
     </body>
 </html>

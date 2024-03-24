@@ -114,9 +114,20 @@
 </section>
 <footer>
   <hr>
+  <p class= "footerNote" style="display:inline" id="myId"></p> <!-- Creates text and a script for today's date on same line. -->
+            <script> 
+                var date = new Date(); 
+                var dd = date.getDate(); 
+                var mm = date.getMonth() + 1; 
+                var yyyy = date.getFullYear(); 
+                var newDate = mm + "-" + dd + "-" +yyyy; 
+                var p = document.getElementById("myId"); 
+                p.innerHTML = newDate; 
+            </script>
+            <br> 
   <p class="footerDisclaimer">2024  Copyright &copy; Chateau Chien - <span>All Rights Reserved</span></p>
-  <p class="footerNote"><a href= "mailto:yourfirstname@yourlastname.com">CustomerSupport@ChateauChien.com</a> <!-- The 'mailto:' opens the user's email program and the text that follows defines the address. --> <span>Email us</span></p>
-</footer>
+  <p class="footerNote"><a href= "mailto:CustomerSupport@ChateauChien.com">CustomerSupport@ChateauChien.com</a> <!-- The 'mailto:' opens the user's email program and the text that follows defines the address. --> <span>Email us</span></p>
+  </footer>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
