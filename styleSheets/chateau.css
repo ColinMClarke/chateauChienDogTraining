@@ -131,10 +131,6 @@ nav a { /* Default (small screen) navigation styling. */
     box-sizing: border-box;
 }
 
-.flexAlignItem { /* This fills the viewport width on the CONTACTS PAGE. */
-    width: 100vw;
-}
-
 .gridContainer{ /* This section sets up the grid for the images on the OUR GRADUATES PAGE (small screens). */ 
     display: grid;
     grid-template-columns: auto auto; /* Each "auto" creates a column with auto sizing. Repeating it 2 times makes 2 columns. */
@@ -174,29 +170,9 @@ nav a { /* Default (small screen) navigation styling. */
     grid-area: 5 / 1 ;
 }
 
-/***** Section for SMALL SCREEN FORM RULES *****/
+/***** Section for DEFAULT AND SMALL SCREEN FORM rules *****/
 /* Style inputs */
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 2px solid;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  input[type=email], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 2px solid;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  input[type=tel], select {
+input[type=text], input[type=email], input[type=tel], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -369,7 +345,16 @@ input[type=text], select {
     }
 
 
-    /************** Section for LARGE SCREEN FORM STYLING*****************/
+    /************** Section for FORM RULES on LARGE SCREEN*****************/
+    form { /* The form looked odd spanning all the way across the large screen, so this retained the stacked form style, but shortened the width of the fields. I also made a color change to the text.*/
+        width: 50%;
+        color: yellow;
+      }
 
+      .dogOnPhone { /* Left aligned narrower form fields made some room for the image to get moved to the right. */ 
+        float: right;
+        margin-top: 50px; 
+        margin-right:50px;
+      }
 
 }
