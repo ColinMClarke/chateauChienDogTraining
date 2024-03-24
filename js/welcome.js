@@ -1,7 +1,7 @@
 /* This script creates a welcome message upon loading of the homepage. */
 
 function welcomeMessage() {
-  alert("Hello! I am an alert box!");
+  alert("Welcome, pets of all ages, sizes, and skill level!");
 }
 
   
