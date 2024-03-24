@@ -351,7 +351,7 @@ input[type=text], input[type=email], input[type=tel], select {
         color: yellow;
       }
 
-      .dogOnPhone { /* Left aligned narrower form fields made some room for the image to get moved to the right. */ 
+      .dogOnPhone { /* The left aligned narrower form fields made some room for the image to get moved to the right. */ 
         float: right;
         margin-top: 50px; 
         margin-right:50px;
