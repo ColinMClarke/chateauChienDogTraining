@@ -170,7 +170,7 @@ nav a { /* Default (small screen) navigation styling. */
     grid-area: 5 / 1 ;
 }
 
-/***** Section for DEFAULT AND SMALL SCREEN FORM rules *****/
+/***** Section for FORM rules, DEFAULT AND SMALL SCREEN *****/
 /* Style inputs */
 input[type=text], input[type=email], input[type=tel], select {
     width: 100%;
@@ -210,8 +210,37 @@ input[type=text], input[type=email], input[type=tel], select {
     background-color: yellow;
   }
 
+/***** Section for CLASSES page VIDEO, SMALL SCREENS *******/
+#beachVideo {
+    max-width: 100%; 
+    margin: auto;
+}
 
-/***************** This second section is for LARGE SCREEN RULES *****************/
+.beachVideoContent{
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding-left: 10px;   
+}
+
+.videoContainer { /* This pairs the video and the overlay */
+    position:relative; 
+}
+
+#beachVideo {
+    position:relative;
+    z-index:0;
+}
+.beachVideoContent {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+
+
+/**************************** This second section is for LARGE SCREEN RULES ****************************/
 
 @media screen and (min-width: 768px) { /* Defines responsive styling for screens that reach or exceed 768 pixels (desktops, laptops and most tablets). */
     body {        
@@ -258,11 +287,10 @@ input[type=text], input[type=email], input[type=tel], select {
     }
 
     aside {
-        padding-left: 40px; /* Makes even more space around the words in large screen displays. */
-        padding-right: 40px;
+        padding-left: 0px; /* Makes even more space around the words in large screen displays. */
+        padding-right: 20px;
         padding-top: 10px; /* Different padding for top/bottom and sides. */
         padding-bottom: 10px;
-        clear: both; /* Moves the aside down below the floated 1st row columns. */
     }
 
     .classInfo{
@@ -272,32 +300,16 @@ input[type=text], input[type=email], input[type=tel], select {
         padding-bottom: 10px;
     }
 
-    .columnLeft{ /* This makes the nav bar stay on the left on the CLASSES PAGE. */
-        float: left;
-        width: 30%;
-    }
-
-    .columnRight{ /* This makes elements move to the right of the nav bar on the CLASSES PAGE. */
-        float: right;
-        width: 70%;
-        padding-top: 40px; /* Makes space below header bar. */
-        padding-bottom: 20px;
-    }
     
-    .columnLowerLeft{ /* This makes the second row of content stay on the left, below the nav bar (CLASSES PAGE). */
-        float: left; 
-        width: 27%; 
-        padding-top: 215px; /* Able to independently adjust content placement from the top columns, this moves the aside way down to be more asethetically aligned with the "class descriptions" content (CLASSES PAGE).*/
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 
-    .columnLowerRight{ /* This makes the second row of content go to the right (CLASSES PAGE). */
-        float: right;
-        width: 70%;
-        padding-top: 20px; 
-        padding-bottom: 40px;  
-    }
+     
+
+
+
+
+
+
+
 
     footer{
         background-color: #68B0AB; /* Adds contrast to footer box for the new color scheme (only needed on large screen format). */

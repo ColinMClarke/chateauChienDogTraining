@@ -10,15 +10,16 @@
         <header>
             <h1 id="websiteTitle">Chateau Chien</h1>
         </header>
-        <nav class="flexNavContainer"> <!-- The class allows styling with flexbox. -->
-            <a href= "index.html">Home</a> <!-- The 'a' makes it a hyperlink, the 'href' points at where to go and the text is what will show in the navigation. -->
-            <a href= "classes.html">Classes</a> 
-            <a href= "ourTeam.html">Our Team</a>  
-            <a href= "contact.html">Contact</a>
-            <a href= "ourGraduates.html">Our Graduates</a>
-			<a href="about.html">About</a>
-        </nav>
-        <main>
+        <div class="flexNavPlusMain">
+            <nav class="flexNavContainer"> <!-- The class allows styling with flexbox. -->
+                <a href= "index.html">Home</a> <!-- The 'a' makes it a hyperlink, the 'href' points at where to go and the text is what will show in the navigation. -->
+                <a href= "classes.html">Classes</a> 
+                <a href= "ourTeam.html">Our Team</a>  
+                <a href= "contact.html">Contact</a>
+                <a href= "ourGraduates.html">Our Graduates</a>
+			    <a href="about.html">About</a>
+            </nav>
+            <main>
             <div class="columnRight"> <!-- Container for making two columns. -->
                 <img src="images/ClassesDogs.jpg" alt="A row of well-behaved dogs on leashes each sitting next to their trainers"> <!-- The page's main image and its description. -->            
             </div>    
@@ -55,8 +56,18 @@
                     </ol>
                 </div>
             </div>    
-                <br>
-        </main>
+            <br>
+            <div class="videoContainer"> <!-- Allows the video and caption to be paired for styling. -->
+                <video autoplay muted loop id="beachVideo"> <!-- This is the video, set to autoplay. -->
+                    <source src="media/BodhiBeachPlay.mp4" type="video/mp4"> <!--A video taken by me of my old friend, Bodhi. Beach romps were his favorite thing to do. -->
+                </video>
+                <div class="beachVideoContent">
+                    <h2>Who wants to play?</h1>
+                    <p>Join our NEW beach class where you and your human can get some energy out. Learn the basics of having safe play dates in public spaces.</p>
+                </div>
+            </div>
+            </main>
+        </div>
         <footer>
             Copyright &copy; 2024 <span class="largerItalics">Chateau Chien</span> <!-- The span tag targets just the word it surrounds (for styling) -->
             <br>
