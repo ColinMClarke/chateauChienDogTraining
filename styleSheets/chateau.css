@@ -62,10 +62,6 @@ aside h2{ /* Styles the "pick the right class for you" heading in the CLASSES PA
     text-align: center;
 }
 
-.classInfo h3{ /* Styles the "how to get started" heading in the CLASSES PAGE. */ 
-    text-align: center;
-}
-
 section .profile{ /* This section controls styling of the profile photos within the "section" on the OUR TEAM PAGE. */ 
    border-radius: 50%;
    width: 80px;
@@ -210,7 +206,7 @@ input[type=text], input[type=email], input[type=tel], select {
     background-color: yellow;
   }
 
-/***** Section for CLASSES page VIDEO, SMALL SCREENS *******/
+/***** Section for CLASSES page VIDEO, DEFAULT and SMALL SCREENS rules *******/
 #beachVideo {
     max-width: 100%; 
     margin: auto;
@@ -227,11 +223,12 @@ input[type=text], input[type=email], input[type=tel], select {
     position:relative; 
 }
 
-#beachVideo {
+#beachVideo { /* Allows the video position to be referenced by the overlay.*/
     position:relative;
     z-index:0;
+    margin-bottom: 20px;
 }
-.beachVideoContent {
+.beachVideoContent { /* References the video position to place the caption over it. */
     position:absolute;
     top:0;
     left:0;
@@ -287,30 +284,36 @@ input[type=text], input[type=email], input[type=tel], select {
     }
 
     aside {
-        padding-left: 0px; /* Makes even more space around the words in large screen displays. */
+        padding-left: 0px; /* Makes even more space around the words in large screen displays, CLASSES page. */
         padding-right: 20px;
         padding-top: 10px; /* Different padding for top/bottom and sides. */
         padding-bottom: 10px;
     }
 
     .classInfo{
-        padding-left: 40px; /* Makes even more space around the words in large screen displays. */
+        padding-left: 40px; /* Makes even more space around the words in large screen displays, CLASSES page. */
         padding-right: 40px;
         padding-top: 10px; /* Different padding for top/bottom and sides. */
         padding-bottom: 10px;
     }
 
-    
+    .firstRow{ /* Keeps the main image on the upper left on the CLASSES page*/
+        float:left;
+        padding-bottom: 20px;
+    }
 
+    .columnRight{ /* Moves the aside to the right on the CLASSES page */
+         clear:left;
+         float:right;
+         margin-top: 100px;
+         margin-bottom: 20px;
+         margin-left: 20px;     
+    }
+
+    .secondRow{ /* Moves the "class descriptions" below the main image on the CLASSES page. */
+        clear:left;
+    } 
      
-
-
-
-
-
-
-
-
     footer{
         background-color: #68B0AB; /* Adds contrast to footer box for the new color scheme (only needed on large screen format). */
         text-align: center;
