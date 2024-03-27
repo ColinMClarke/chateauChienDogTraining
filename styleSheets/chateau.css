@@ -39,6 +39,7 @@ aside { /* This section styles the unumbered list on the CLASSES PAGE. */
     padding-right: 20px;
     padding-top: 5px; /* Different padding for top/bottom and sides. */
     padding-bottom: 5px;
+    margin-top: 15px;
 }
 
 aside h2{ /* Styles the "pick the right class for you" heading in the CLASSES PAGE. */
@@ -86,7 +87,7 @@ ol.ourTeam { /* This controls the elemnts of the list in the "our team" section 
 }
 
 nav { /* Styles navigation. */
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 
 nav a:link{ /* Colors nav links that have not yet been clicked. */
@@ -107,14 +108,16 @@ nav a:hover { /* Makes the nav links change color on hover. */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: -55px; /* This brings the entire navigation menu up, so that the last page link doesn;t fall below the viewport prior to scrolling down. */
+    
 }
 
 nav a { /* Default (small screen) navigation styling. */
-    width: 110px;
+    width: 90px;
     background-color: #8FC0A9;
     padding: 5px;
     text-align: center;
-    margin: 15px;
+    margin: 5px;
   }
 
 .flexGalleryContainer { /* Applies styling to the flex-box container around the headshots of the OUR TEAM PAGE. */
@@ -267,6 +270,10 @@ input[type=text], input[type=email], input[type=tel], select {
     main {
         height: 100vh;
         overflow: scroll;
+    }
+
+    nav{
+        font-size: 1.3em;
     }
 
     nav a{ /* Large screen navigation styling- vertical. */
